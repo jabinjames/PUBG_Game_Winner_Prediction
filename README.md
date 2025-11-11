@@ -17,7 +17,7 @@ This project demonstrates the integration of data analysis, deep learning, and m
 
 | **Model Used**                               | **Description**                                                                                                                                                    | **Performance Summary**                                                                                                 |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| **LSTM (Long Short-Term Memory)**            | Deep learning model designed to capture sequential patterns in player match data. It learns temporal dependencies (how early-game actions affect final placement). | Achieved a **Mean Absolute Error (MAE)** of 0.045.. |
+| **LSTM (Long Short-Term Memory)**            | Deep learning model designed to capture sequential patterns in player match data. It learns temporal dependencies. | Achieved a **Mean Absolute Error (MAE)** of 0.045.. |
 
 The LSTM model outperformed traditional regressors in understanding time-based patterns, making it ideal for predicting evolving gameplay outcomes.
 
