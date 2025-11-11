@@ -70,6 +70,6 @@ Gameplay Insights
 
 3)boosts and heals usage indicated good resource management and increased survival chances.
 
-4) kills, damageDealt, and walkDistance as the most significant predictors of success.
+4)kills, damageDealt, and walkDistance as the most significant predictors of success.
 
 5)The LSTM model captures temporal dynamics, showing that early kills and looting influence late-match performance.
