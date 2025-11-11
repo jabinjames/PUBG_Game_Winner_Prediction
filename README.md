@@ -21,8 +21,6 @@ This project demonstrates the integration of data analysis, deep learning, and m
 
 The LSTM model outperformed traditional regressors in understanding time-based patterns, making it ideal for predicting evolving gameplay outcomes.
 
-
-
 🧾 3. Dataset Used
 
 Dataset Source: PUBG Finish Placement Prediction – Kaggle
@@ -47,3 +45,31 @@ Key Features:
 -numGroups	
 
 -winPlacePerc	(Target variable) 
+
+📈 5. Results and Insights
+
+🧩 Model Results
+
+1)The LSTM model successfully learned sequential relationships between gameplay metrics and win outcomes.
+
+2)It achieved:
+
+-Mean Absolute Error (MAE): 0.045
+
+-Mean Squared Error (MSE): Low and stable across epochs
+
+-R² Score: 0.91
+
+3)The training and validation loss curves converged smoothly, indicating no overfitting and good generalization.
+
+Gameplay Insights
+
+1)Players with high kills, damageDealt, and walkDistance showed a strong correlation with winning.
+
+2)Players who covered more ground (walking or riding vehicles) tended to survive longer and had higher win probabilities.
+
+3)boosts and heals usage indicated good resource management and increased survival chances.
+
+4) kills, damageDealt, and walkDistance as the most significant predictors of success.
+
+5)The LSTM model captures temporal dynamics, showing that early kills and looting influence late-match performance.
